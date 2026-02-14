@@ -1,8 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {Timer} from "./Timer";
 
-//include images into your bundle
-//import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
@@ -22,7 +20,7 @@ useEffect(() => {
 		
 	
 		<div className="text-center">
-			<h1>Countdown</h1>
+			<h1 className="mt-5">Minutes Counter</h1>
 		<Timer count={counter} />
 		</div>		 
 	
